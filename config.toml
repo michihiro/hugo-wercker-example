@@ -1,6 +1,0 @@
-baseurl = "http://yourSiteHere/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-
-theme = "hyde"
-watch = true
