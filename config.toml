@@ -4,3 +4,5 @@ title = "My New Hugo Site"
 
 theme = "hyde"
 watch = true
+buildDrafts = true
+disableLiveReload = true
