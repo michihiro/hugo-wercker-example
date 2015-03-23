@@ -1,0 +1,4 @@
+<section
+{{if isset .Params "class"}} class="{{.Get "class"}}"{{ end }}
+{{if isset .Params "name"}} id="{{.Get "name"}}"{{ end }}
+>{{ if isset .Params "name" }}<a name="{{ .Get "name" }}">&nbsp;</a>{{ end }}{{ .Inner  }}</section>

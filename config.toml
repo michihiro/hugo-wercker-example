@@ -1,8 +1,15 @@
-baseurl = "http://yourSiteHere/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "http://michihiro.github.io/aws-console-app/"
+languageCode = "ja"
+title = "AWS Console App (Alpha Ver)"
 
-theme = "hyde"
+theme = "mytheme"
 watch = true
-buildDrafts = true
-disableLiveReload = true
+buildDrafts= true
+disableLiveReload= true
+
+[params]
+  AuthorName= "Michihiro"
+  AppleIcon="img/apple-touch-icon-144-precomposed.png"
+  Favicon="img/favicon.ico"
+[blackfriday]
+  plainIdAnchors = true
